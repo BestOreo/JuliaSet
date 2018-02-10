@@ -4,7 +4,7 @@ A Julia Set is a construction from complex math that can be used to generate a w
 
 ### Linux:
 * sudo apt-get install gnuplot-x11
-* gcc ./q1_julia_explorer.c -o q1_julia_explorer
+* gcc ./julia_explorer.c -o julia_explorer
 * ./julia_explorer shape_template.txt 35.999 63.9090 | gnuplot -p
 ![pic](https://github.com/BestOreo/Pic-for-README.md/blob/master/gnuplot/2.png)
 * ./julia_explorer shape_template.txt 36.999 63.9090 | gnuplot -p
